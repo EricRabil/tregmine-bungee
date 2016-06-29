@@ -1,0 +1,5 @@
+db:
+  url: jdbc:mysql://10.10.0.5:3306/tregmine_db?autoReconnect=true
+  user: readonly
+  password: ytw87XxJAMUMCbM6
+  driver:: com.mysql.jbdc.Driver

@@ -1,0 +1,706 @@
+10:03:37 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+10:03:37 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+10:03:37 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.10-SNAPSHOT:c5ac5a0:1164
+10:03:38 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+10:03:38 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+10:03:38 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+10:03:38 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+10:03:38 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+10:03:38 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+10:03:38 [INFO] Attempting to update plugin from null to ModuleVersion(build=1164, git=c5ac5a0)
+10:03:38 [INFO] Attempting to Jenkins download module cmd_alert v1164
+10:03:38 [INFO] Download complete
+10:03:38 [INFO] Attempting to update plugin from null to ModuleVersion(build=1164, git=c5ac5a0)
+10:03:38 [INFO] Attempting to Jenkins download module cmd_find v1164
+10:03:38 [INFO] Download complete
+10:03:38 [INFO] Attempting to update plugin from null to ModuleVersion(build=1164, git=c5ac5a0)
+10:03:38 [INFO] Attempting to Jenkins download module cmd_list v1164
+10:03:38 [INFO] Download complete
+10:03:38 [INFO] Attempting to update plugin from null to ModuleVersion(build=1164, git=c5ac5a0)
+10:03:38 [INFO] Attempting to Jenkins download module cmd_send v1164
+10:03:38 [INFO] Download complete
+10:03:38 [INFO] Attempting to update plugin from null to ModuleVersion(build=1164, git=c5ac5a0)
+10:03:38 [INFO] Attempting to Jenkins download module cmd_server v1164
+10:03:38 [INFO] Download complete
+10:03:38 [INFO] Attempting to update plugin from null to ModuleVersion(build=1164, git=c5ac5a0)
+10:03:38 [INFO] Attempting to Jenkins download module reconnect_yaml v1164
+10:03:38 [INFO] Download complete
+10:03:38 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:03:38 [INFO] Loaded plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:03:38 [INFO] Loaded plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:03:38 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:03:38 [INFO] Loaded plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:03:38 [INFO] Loaded plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:03:39 [WARNING] Forced host server pvp is not defined
+10:03:39 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:03:39 [INFO] Enabled plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:03:39 [INFO] Enabled plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:03:39 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:03:39 [INFO] Enabled plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:03:39 [INFO] Enabled plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:03:39 [INFO] Listening on /0.0.0.0:25577
+10:03:41 [INFO] §cCommand not found
+10:03:43 [INFO] Closing listener [id: 0x73a9cc68, /0:0:0:0:0:0:0:0:25577]
+10:03:43 [INFO] Closing pending connections
+10:03:43 [INFO] Disconnecting 0 connections
+10:03:43 [INFO] Closing IO threads
+10:03:45 [INFO] Saving reconnect locations
+10:03:45 [INFO] Disabling plugins
+10:04:15 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+10:04:15 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+10:04:15 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.10-SNAPSHOT:c5ac5a0:1164
+10:04:16 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+10:04:16 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+10:04:16 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+10:04:16 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+10:04:16 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+10:04:16 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+10:04:16 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:04:16 [INFO] Loaded plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:04:16 [INFO] Loaded plugin TregmineBungee version 1.0.0 by Eric Rabil
+10:04:16 [INFO] Loaded plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:04:16 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:04:16 [INFO] Loaded plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:04:16 [INFO] Loaded plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:04:16 [WARNING] Forced host server pvp is not defined
+10:04:16 [INFO] [TregmineBungee] Bungee bitch
+10:04:16 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:04:16 [INFO] Enabled plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:04:16 [INFO] Enabled plugin TregmineBungee version 1.0.0 by Eric Rabil
+10:04:16 [INFO] Enabled plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:04:16 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:04:16 [INFO] Enabled plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:04:16 [INFO] Enabled plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+10:04:16 [INFO] Listening on /0.0.0.0:25577
+10:04:22 [INFO] §cCommand not found
+10:04:24 [INFO] Closing listener [id: 0x6d52e43c, /0:0:0:0:0:0:0:0:25577]
+10:04:24 [INFO] Closing pending connections
+10:04:24 [INFO] Disconnecting 0 connections
+10:04:24 [INFO] Closing IO threads
+10:04:26 [INFO] Saving reconnect locations
+10:04:26 [INFO] Disabling plugins
+14:55:33 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+14:55:33 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+14:55:33 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.10-SNAPSHOT:c5ac5a0:1164
+14:55:33 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+14:55:33 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+14:55:33 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+14:55:33 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+14:55:33 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+14:55:33 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+14:55:34 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+14:55:34 [INFO] [TregmineBungee] Data folder was missing, generating.
+14:55:34 [INFO] Loaded plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+14:55:34 [INFO] Loaded plugin TregmineBungee version 1.0.0 by Eric Rabil
+14:55:34 [INFO] Loaded plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+14:55:34 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+14:55:34 [INFO] Loaded plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+14:55:34 [INFO] Loaded plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+14:55:34 [WARNING] Forced host server pvp is not defined
+14:55:34 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+14:55:34 [INFO] Enabled plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+14:55:34 [INFO] Enabled plugin TregmineBungee version 1.0.0 by Eric Rabil
+14:55:34 [INFO] Enabled plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+14:55:34 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+14:55:34 [INFO] Enabled plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+14:55:34 [INFO] Enabled plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+14:55:34 [INFO] Listening on /0.0.0.0:25577
+14:55:47 [INFO] Netty is not using direct IO buffers.
+14:55:47 [INFO] [/127.0.0.1:55550] <-> InitialHandler has connected
+14:55:49 [INFO] [/127.0.0.1:55551] <-> InitialHandler has connected
+14:55:50 [INFO] [TregmineBungee] 8f407eba-4270-4d0e-b7eb-60d0b7aeda57 is banned and won't be allowed to connect.
+14:55:50 [INFO] [im_not_eric] disconnected with: §f§cYou are banned from the Tregmine Network.
+14:55:50 [INFO] [im_not_eric] <-> ServerConnector [lobby] has connected
+14:55:50 [INFO] [im_not_eric] disconnected with: §cKicked whilst connecting to lobby: §fOutdated server! I'm still on 1.7.10
+14:55:50 [INFO] [im_not_eric] <-> ServerConnector [lobby] has disconnected
+14:55:50 [INFO] [im_not_eric] -> UpstreamBridge has disconnected
+15:36:30 [INFO] [/127.0.0.1:55915] <-> InitialHandler has connected
+15:36:30 [INFO] [TregmineBungee] 8f407eba-4270-4d0e-b7eb-60d0b7aeda57 is banned and won't be allowed to connect.
+15:36:30 [INFO] [im_not_eric] disconnected with: §f§cYou are banned from the Tregmine Network.
+15:36:30 [INFO] [im_not_eric] <-> ServerConnector [lobby] has connected
+15:36:30 [INFO] [im_not_eric] disconnected with: §cKicked whilst connecting to lobby: §fOutdated server! I'm still on 1.7.10
+15:36:30 [INFO] [im_not_eric] <-> ServerConnector [lobby] has disconnected
+15:36:30 [INFO] [im_not_eric] -> UpstreamBridge has disconnected
+15:38:58 [INFO] [/127.0.0.1:55969] <-> InitialHandler has connected
+15:38:59 [INFO] [/127.0.0.1:55972] <-> InitialHandler has connected
+15:38:59 [INFO] [TregmineBungee] 8f407eba-4270-4d0e-b7eb-60d0b7aeda57 is banned and won't be allowed to connect.
+15:38:59 [INFO] [im_not_eric] disconnected with: §f§cYou are banned from the Tregmine Network.
+15:38:59 [INFO] [im_not_eric] <-> ServerConnector [lobby] has connected
+15:38:59 [INFO] [im_not_eric] disconnected with: §cKicked whilst connecting to lobby: §fOutdated server! I'm still on 1.7.10
+15:38:59 [INFO] [im_not_eric] <-> ServerConnector [lobby] has disconnected
+15:39:00 [INFO] [im_not_eric] -> UpstreamBridge has disconnected
+19:58:38 [INFO] Closing listener [id: 0xca4a41fd, /0:0:0:0:0:0:0:0:25577]
+19:58:38 [INFO] Closing pending connections
+19:58:38 [INFO] Disconnecting 0 connections
+19:58:38 [INFO] Closing IO threads
+19:58:40 [INFO] Saving reconnect locations
+19:58:40 [INFO] Disabling plugins
+20:00:32 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+20:00:32 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+20:00:32 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.10-SNAPSHOT:c5ac5a0:1164
+20:00:32 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+20:00:32 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+20:00:32 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+20:00:32 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+20:00:32 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+20:00:32 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+20:00:32 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:00:32 [INFO] Loaded plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:00:32 [INFO] Loaded plugin TregmineBungee version 1.0.0 by Eric Rabil
+20:00:32 [INFO] Loaded plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:00:32 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:00:32 [INFO] Loaded plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:00:32 [INFO] Loaded plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:00:32 [WARNING] Forced host server pvp is not defined
+20:00:32 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:00:32 [INFO] Enabled plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:00:32 [WARNING] Exception encountered when loading plugin: TregmineBungee
+java.lang.RuntimeException: java.lang.ClassNotFoundException: 
+	at com.tregmine.bungee.database.db.DBContextFactory.<init>(DBContextFactory.java:34)
+	at com.tregmine.bungee.Tregmine.onEnable(Tregmine.java:65)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:227)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:267)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:55)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: 
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.tregmine.bungee.database.db.DBContextFactory.<init>(DBContextFactory.java:32)
+	... 5 more
+20:00:32 [INFO] Enabled plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:00:32 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:00:32 [INFO] Enabled plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:00:32 [INFO] Enabled plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:00:32 [INFO] Listening on /0.0.0.0:25577
+20:01:41 [INFO] Closing listener [id: 0xdce14d87, /0:0:0:0:0:0:0:0:25577]
+20:01:41 [INFO] Closing pending connections
+20:01:41 [INFO] Disconnecting 0 connections
+20:01:41 [INFO] Closing IO threads
+20:01:43 [INFO] Saving reconnect locations
+20:01:43 [INFO] Disabling plugins
+20:33:12 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+20:33:12 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+20:33:12 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.10-SNAPSHOT:c5ac5a0:1164
+20:33:12 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+20:33:12 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+20:33:12 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+20:33:12 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+20:33:12 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+20:33:12 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+20:33:12 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:33:12 [INFO] Loaded plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:33:12 [INFO] Loaded plugin TregmineBungee version 1.0.0 by Eric Rabil
+20:33:12 [INFO] Loaded plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:33:12 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:33:12 [INFO] Loaded plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:33:12 [INFO] Loaded plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:33:12 [WARNING] Forced host server pvp is not defined
+20:33:12 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:33:12 [INFO] Enabled plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:33:12 [WARNING] Exception encountered when loading plugin: TregmineBungee
+java.lang.RuntimeException: java.lang.ClassNotFoundException: 
+	at com.tregmine.bungee.database.db.DBContextFactory.<init>(DBContextFactory.java:34)
+	at com.tregmine.bungee.Tregmine.onEnable(Tregmine.java:65)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:227)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:267)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:55)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: 
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.tregmine.bungee.database.db.DBContextFactory.<init>(DBContextFactory.java:32)
+	... 5 more
+20:33:12 [INFO] Enabled plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:33:12 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:33:12 [INFO] Enabled plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:33:12 [INFO] Enabled plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:33:13 [INFO] Listening on /0.0.0.0:25577
+20:33:28 [INFO] Closing listener [id: 0x699c27e9, /0:0:0:0:0:0:0:0:25577]
+20:33:28 [INFO] Closing pending connections
+20:33:28 [INFO] Disconnecting 0 connections
+20:33:28 [INFO] Closing IO threads
+20:33:30 [INFO] Saving reconnect locations
+20:33:30 [INFO] Disabling plugins
+20:34:36 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+20:34:36 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+20:34:36 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.10-SNAPSHOT:c5ac5a0:1164
+20:34:36 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+20:34:36 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+20:34:36 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+20:34:36 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+20:34:36 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+20:34:36 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+20:34:36 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:34:36 [INFO] Loaded plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:34:36 [INFO] Loaded plugin TregmineBungee version 1.0.0 by Eric Rabil
+20:34:36 [INFO] Loaded plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:34:36 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:34:36 [INFO] Loaded plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:34:36 [INFO] Loaded plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:34:36 [WARNING] Forced host server pvp is not defined
+20:34:36 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:34:36 [INFO] Enabled plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:34:36 [WARNING] Exception encountered when loading plugin: TregmineBungee
+java.lang.RuntimeException: java.lang.ClassNotFoundException: 
+	at com.tregmine.bungee.database.db.DBContextFactory.<init>(DBContextFactory.java:34)
+	at com.tregmine.bungee.Tregmine.onEnable(Tregmine.java:65)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:227)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:267)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:55)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: 
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.tregmine.bungee.database.db.DBContextFactory.<init>(DBContextFactory.java:32)
+	... 5 more
+20:34:36 [INFO] Enabled plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:34:36 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:34:36 [INFO] Enabled plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:34:36 [INFO] Enabled plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:34:36 [INFO] Listening on /0.0.0.0:25577
+20:36:06 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+20:36:06 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+20:36:06 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.10-SNAPSHOT:c5ac5a0:1164
+20:36:06 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+20:36:06 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+20:36:06 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+20:36:06 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+20:36:06 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+20:36:06 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+20:36:06 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:36:06 [INFO] Loaded plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:36:06 [INFO] Loaded plugin TregmineBungee version 1.0.0 by Eric Rabil
+20:36:06 [INFO] Loaded plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:36:06 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:36:06 [INFO] Loaded plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:36:06 [INFO] Loaded plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:36:06 [WARNING] Forced host server pvp is not defined
+20:36:06 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:36:06 [INFO] Enabled plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:36:06 [WARNING] Exception encountered when loading plugin: TregmineBungee
+java.lang.RuntimeException: java.lang.ClassNotFoundException: 
+	at com.tregmine.bungee.database.db.DBContextFactory.<init>(DBContextFactory.java:36)
+	at com.tregmine.bungee.Tregmine.onEnable(Tregmine.java:65)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:227)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:267)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:55)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: 
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.tregmine.bungee.database.db.DBContextFactory.<init>(DBContextFactory.java:34)
+	... 5 more
+20:36:06 [INFO] Enabled plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:36:06 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:36:06 [INFO] Enabled plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:36:06 [INFO] Enabled plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:36:06 [INFO] Listening on /0.0.0.0:25577
+20:36:15 [INFO] Closing listener [id: 0xe756b768, /0:0:0:0:0:0:0:0:25577]
+20:36:15 [INFO] Closing pending connections
+20:36:15 [INFO] Disconnecting 0 connections
+20:36:15 [INFO] Closing IO threads
+20:36:17 [INFO] Saving reconnect locations
+20:36:17 [INFO] Disabling plugins
+20:41:31 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+20:41:31 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+20:41:31 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.10-SNAPSHOT:c5ac5a0:1164
+20:41:31 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+20:41:31 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+20:41:31 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+20:41:31 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+20:41:31 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+20:41:31 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+20:41:31 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:41:31 [INFO] Loaded plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:41:31 [INFO] Loaded plugin TregmineBungee version 1.0.0 by Eric Rabil
+20:41:31 [INFO] Loaded plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:41:31 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:41:31 [INFO] Loaded plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:41:31 [INFO] Loaded plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:41:31 [WARNING] Forced host server pvp is not defined
+20:41:31 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:41:31 [INFO] Enabled plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:41:31 [WARNING] Exception encountered when loading plugin: TregmineBungee
+java.lang.RuntimeException: java.lang.ClassNotFoundException: 
+	at com.tregmine.bungee.database.db.DBContextFactory.<init>(DBContextFactory.java:36)
+	at com.tregmine.bungee.Tregmine.onEnable(Tregmine.java:65)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:227)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:267)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:55)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: 
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.tregmine.bungee.database.db.DBContextFactory.<init>(DBContextFactory.java:34)
+	... 5 more
+20:41:31 [INFO] Enabled plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:41:31 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:41:31 [INFO] Enabled plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:41:31 [INFO] Enabled plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+20:41:31 [INFO] Listening on /0.0.0.0:25577
+21:02:01 [INFO] Closing listener [id: 0x449aaa64, /0:0:0:0:0:0:0:0:25577]
+21:02:01 [INFO] Closing pending connections
+21:02:01 [INFO] Disconnecting 0 connections
+21:02:01 [INFO] Closing IO threads
+21:02:03 [INFO] Saving reconnect locations
+21:02:03 [INFO] Disabling plugins
+21:02:11 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+21:02:11 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+21:02:11 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.10-SNAPSHOT:c5ac5a0:1164
+21:02:11 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+21:02:11 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+21:02:11 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+21:02:11 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+21:02:11 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+21:02:11 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:02:11 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:02:11 [INFO] Loaded plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:02:11 [INFO] Loaded plugin TregmineBungee version 1.0.0 by Eric Rabil
+21:02:11 [INFO] Loaded plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:02:11 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:02:11 [INFO] Loaded plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:02:11 [INFO] Loaded plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:02:11 [WARNING] Forced host server pvp is not defined
+21:02:11 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:02:11 [INFO] Enabled plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:02:11 [WARNING] Exception encountered when loading plugin: TregmineBungee
+java.lang.RuntimeException: java.lang.ClassNotFoundException: 
+	at com.tregmine.bungee.database.db.DBContextFactory.<init>(DBContextFactory.java:36)
+	at com.tregmine.bungee.Tregmine.onEnable(Tregmine.java:65)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:227)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:267)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:55)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: java.lang.ClassNotFoundException: 
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Unknown Source)
+	at com.tregmine.bungee.database.db.DBContextFactory.<init>(DBContextFactory.java:34)
+	... 5 more
+21:02:11 [INFO] Enabled plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:02:11 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:02:11 [INFO] Enabled plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:02:11 [INFO] Enabled plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:02:11 [INFO] Listening on /0.0.0.0:25577
+21:03:28 [INFO] Closing listener [id: 0xaeeed251, /0:0:0:0:0:0:0:0:25577]
+21:03:28 [INFO] Closing pending connections
+21:03:28 [INFO] Disconnecting 0 connections
+21:03:28 [INFO] Closing IO threads
+21:03:30 [INFO] Saving reconnect locations
+21:03:30 [INFO] Disabling plugins
+21:03:45 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+21:03:45 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+21:03:45 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.10-SNAPSHOT:c5ac5a0:1164
+21:03:45 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+21:03:45 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+21:03:45 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+21:03:45 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+21:03:45 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+21:03:45 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:03:45 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:03:45 [INFO] Loaded plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:03:45 [INFO] Loaded plugin TregmineBungee version 1.0.0 by Eric Rabil
+21:03:45 [INFO] Loaded plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:03:45 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:03:45 [INFO] Loaded plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:03:45 [INFO] Loaded plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:03:45 [WARNING] Forced host server pvp is not defined
+21:03:45 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:03:45 [INFO] Enabled plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:03:45 [INFO] Enabled plugin TregmineBungee version 1.0.0 by Eric Rabil
+21:03:45 [INFO] Enabled plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:03:45 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:03:45 [INFO] Enabled plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:03:45 [INFO] Enabled plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:03:45 [INFO] Listening on /0.0.0.0:25577
+21:03:56 [INFO] Netty is not using direct IO buffers.
+21:03:56 [INFO] [/127.0.0.1:63764] <-> InitialHandler has connected
+21:03:58 [INFO] [/127.0.0.1:63767] <-> InitialHandler has connected
+21:04:10 [INFO] §cCommand not found
+21:04:14 [INFO] [/127.0.0.1:63771] <-> InitialHandler has connected
+21:04:15 [INFO] [/127.0.0.1:63774] <-> InitialHandler has connected
+21:04:15 [INFO] [/127.0.0.1:63777] <-> InitialHandler has connected
+21:04:15 [INFO] [/127.0.0.1:63781] <-> InitialHandler has connected
+21:04:16 [INFO] [/127.0.0.1:63787] <-> InitialHandler has connected
+21:04:17 [INFO] [null] <-> InitialHandler has connected
+21:04:17 [INFO] [/127.0.0.1:63797] <-> InitialHandler has connected
+21:04:19 [INFO] [/127.0.0.1:63801] <-> InitialHandler has connected
+21:04:19 [INFO] [null] <-> InitialHandler has connected
+21:04:19 [INFO] [null] <-> InitialHandler has connected
+21:04:19 [INFO] [/127.0.0.1:63810] <-> InitialHandler has connected
+21:04:19 [INFO] [/127.0.0.1:63813] <-> InitialHandler has connected
+21:04:19 [INFO] [/127.0.0.1:63817] <-> InitialHandler has connected
+21:04:22 [INFO] [/127.0.0.1:63820] <-> InitialHandler has connected
+21:05:09 [INFO] Closing listener [id: 0xceece24d, /0:0:0:0:0:0:0:0:25577]
+21:05:09 [INFO] Closing pending connections
+21:05:09 [INFO] Disconnecting 0 connections
+21:05:09 [INFO] Closing IO threads
+21:05:11 [INFO] Saving reconnect locations
+21:05:11 [INFO] Disabling plugins
+21:06:05 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+21:06:05 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+21:06:05 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.10-SNAPSHOT:c5ac5a0:1164
+21:06:06 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+21:06:06 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+21:06:06 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+21:06:06 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+21:06:06 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+21:06:06 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:06:06 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:06:06 [INFO] Loaded plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:06:06 [INFO] Loaded plugin TregmineBungee version 1.0.0 by Eric Rabil
+21:06:06 [INFO] Loaded plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:06:06 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:06:06 [INFO] Loaded plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:06:06 [INFO] Loaded plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:06:06 [WARNING] Forced host server pvp is not defined
+21:06:06 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:06:06 [INFO] Enabled plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:06:06 [INFO] Called! 1
+21:06:06 [INFO] Enabled plugin TregmineBungee version 1.0.0 by Eric Rabil
+21:06:06 [INFO] Enabled plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:06:06 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:06:06 [INFO] Enabled plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:06:06 [INFO] Enabled plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:06:06 [INFO] Listening on /0.0.0.0:25577
+21:06:10 [INFO] Netty is not using direct IO buffers.
+21:06:10 [INFO] [/127.0.0.1:63843] <-> InitialHandler has connected
+21:06:11 [INFO] [/127.0.0.1:63845] <-> InitialHandler has connected
+21:06:32 [INFO] [/127.0.0.1:63876] <-> InitialHandler has connected
+21:06:33 [INFO] [/127.0.0.1:63877] <-> InitialHandler has connected
+21:06:52 [INFO] [/127.0.0.1:63910] <-> InitialHandler has connected
+21:06:54 [INFO] [im_not_eric] <-> InitialHandler has connected
+21:07:00 [SEVERE] Jun 28, 2016 9:07:00 PM net.md_5.bungee.event.EventBus post
+WARNING: Error dispatching event PostLoginEvent(player=im_not_eric) to listener com.tregmine.bungee.listeners.LoginListener@6025e1b6
+java.lang.NullPointerException
+	at com.tregmine.bungee.api.PlayerDataSource.setID(PlayerDataSource.java:17)
+	at com.tregmine.bungee.database.db.DBPlayerDAO.buildPlayer(DBPlayerDAO.java:113)
+	at com.tregmine.bungee.Tregmine.getPlayer(Tregmine.java:75)
+	at com.tregmine.bungee.listeners.LoginListener.onLogin(LoginListener.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:377)
+	at net.md_5.bungee.connection.InitialHandler$6$1.run(InitialHandler.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)
+
+
+21:07:00 [WARNING] Event PostLoginEvent(player=im_not_eric) took 5,245,000,483ns to process!
+21:07:00 [INFO] [im_not_eric] <-> ServerConnector [lobby] has connected
+21:07:00 [INFO] [im_not_eric] disconnected with: §cKicked whilst connecting to lobby: §fOutdated server! I'm still on 1.7.10
+21:07:00 [INFO] [im_not_eric] <-> ServerConnector [lobby] has disconnected
+21:07:00 [INFO] [im_not_eric] -> UpstreamBridge has disconnected
+21:08:08 [INFO] Closing listener [id: 0x58b3c199, /0:0:0:0:0:0:0:0:25577]
+21:08:08 [INFO] Closing pending connections
+21:08:08 [INFO] Disconnecting 0 connections
+21:08:08 [INFO] Closing IO threads
+21:08:11 [INFO] Saving reconnect locations
+21:08:11 [INFO] Disabling plugins
+21:08:46 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+21:08:46 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+21:08:46 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.10-SNAPSHOT:c5ac5a0:1164
+21:08:47 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+21:08:47 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+21:08:47 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+21:08:47 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+21:08:47 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+21:08:47 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:08:47 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:08:47 [INFO] Loaded plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:08:47 [INFO] Loaded plugin TregmineBungee version 1.0.0 by Eric Rabil
+21:08:47 [INFO] Loaded plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:08:47 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:08:47 [INFO] Loaded plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:08:47 [INFO] Loaded plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:08:47 [WARNING] Forced host server pvp is not defined
+21:08:47 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:08:47 [INFO] Enabled plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:08:47 [INFO] Called! 1
+21:08:47 [INFO] Enabled plugin TregmineBungee version 1.0.0 by Eric Rabil
+21:08:47 [INFO] Enabled plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:08:47 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:08:47 [INFO] Enabled plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:08:47 [INFO] Enabled plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:08:47 [INFO] Listening on /0.0.0.0:25577
+21:08:53 [INFO] Netty is not using direct IO buffers.
+21:08:53 [INFO] [im_not_eric] <-> InitialHandler has connected
+21:08:54 [SEVERE] java.lang.NullPointerException
+21:08:54 [SEVERE] 	at com.tregmine.bungee.api.PlayerDataSource.setID(PlayerDataSource.java:17)
+21:08:54 [SEVERE] 	at com.tregmine.bungee.database.db.DBPlayerDAO.buildPlayer(DBPlayerDAO.java:86)
+21:08:54 [SEVERE] 	at com.tregmine.bungee.Tregmine.getPlayer(Tregmine.java:75)
+21:08:54 [SEVERE] 	at com.tregmine.bungee.listeners.LoginListener.onLogin(LoginListener.java:22)
+21:08:54 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+21:08:54 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+21:08:54 [SEVERE] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+21:08:54 [SEVERE] 	at java.lang.reflect.Method.invoke(Unknown Source)
+21:08:54 [SEVERE] 	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+21:08:54 [SEVERE] 	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+21:08:54 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:377)
+21:08:54 [SEVERE] 	at net.md_5.bungee.connection.InitialHandler$6$1.run(InitialHandler.java:495)
+21:08:54 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358)
+21:08:54 [SEVERE] 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+21:08:54 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+21:08:54 [SEVERE] 	at java.lang.Thread.run(Unknown Source)
+21:08:54 [SEVERE] Jun 28, 2016 9:08:54 PM net.md_5.bungee.event.EventBus post
+WARNING: Error dispatching event PostLoginEvent(player=im_not_eric) to listener com.tregmine.bungee.listeners.LoginListener@6025e1b6
+java.lang.NullPointerException
+	at com.tregmine.bungee.api.TregminePlayer.<init>(TregminePlayer.java:36)
+	at com.tregmine.bungee.Tregmine.getPlayer(Tregmine.java:76)
+	at com.tregmine.bungee.listeners.LoginListener.onLogin(LoginListener.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:377)
+	at net.md_5.bungee.connection.InitialHandler$6$1.run(InitialHandler.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)
+
+
+21:08:54 [WARNING] Event PostLoginEvent(player=im_not_eric) took 373,104,423ns to process!
+21:08:54 [INFO] [im_not_eric] <-> ServerConnector [lobby] has connected
+21:08:54 [INFO] [im_not_eric] disconnected with: §cKicked whilst connecting to lobby: §fOutdated server! I'm still on 1.7.10
+21:08:54 [INFO] [im_not_eric] <-> ServerConnector [lobby] has disconnected
+21:08:55 [INFO] [im_not_eric] -> UpstreamBridge has disconnected
+21:11:19 [INFO] Closing listener [id: 0xa2b450eb, /0:0:0:0:0:0:0:0:25577]
+21:11:19 [INFO] Closing pending connections
+21:11:19 [INFO] Disconnecting 0 connections
+21:11:19 [INFO] Closing IO threads
+21:11:21 [INFO] Saving reconnect locations
+21:11:21 [INFO] Disabling plugins
+21:11:26 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+21:11:26 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+21:11:26 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.10-SNAPSHOT:c5ac5a0:1164
+21:11:26 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+21:11:26 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+21:11:26 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+21:11:26 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+21:11:26 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+21:11:26 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:11:26 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:11:26 [INFO] Loaded plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:11:26 [INFO] Loaded plugin TregmineBungee version 1.0.0 by Eric Rabil
+21:11:26 [INFO] Loaded plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:11:26 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:11:26 [INFO] Loaded plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:11:26 [INFO] Loaded plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:11:26 [WARNING] Forced host server pvp is not defined
+21:11:26 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:11:26 [INFO] Enabled plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:11:26 [INFO] Called! 1
+21:11:26 [INFO] Enabled plugin TregmineBungee version 1.0.0 by Eric Rabil
+21:11:26 [INFO] Enabled plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:11:26 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:11:26 [INFO] Enabled plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:11:26 [INFO] Enabled plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:11:26 [INFO] Listening on /0.0.0.0:25577
+21:11:30 [INFO] Netty is not using direct IO buffers.
+21:11:30 [INFO] [/127.0.0.1:64021] <-> InitialHandler has connected
+21:11:31 [SEVERE] java.sql.SQLException: Before start of result set
+21:11:31 [SEVERE] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:996)
+21:11:31 [SEVERE] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:935)
+21:11:31 [SEVERE] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:924)
+21:11:31 [SEVERE] 	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:870)
+21:11:31 [SEVERE] 	at com.mysql.jdbc.ResultSetImpl.checkRowPos(ResultSetImpl.java:781)
+21:11:31 [SEVERE] 	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2455)
+21:11:31 [SEVERE] 	at com.mysql.jdbc.ResultSetImpl.getInt(ResultSetImpl.java:2566)
+21:11:31 [SEVERE] 	at org.apache.commons.dbcp.DelegatingResultSet.getInt(DelegatingResultSet.java:237)
+21:11:31 [SEVERE] 	at com.tregmine.bungee.database.db.DBPlayerDAO.buildPlayer(DBPlayerDAO.java:86)
+21:11:31 [SEVERE] 	at com.tregmine.bungee.Tregmine.getPlayer(Tregmine.java:75)
+21:11:31 [SEVERE] 	at com.tregmine.bungee.listeners.LoginListener.onLogin(LoginListener.java:22)
+21:11:31 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+21:11:31 [SEVERE] 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+21:11:31 [SEVERE] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+21:11:31 [SEVERE] 	at java.lang.reflect.Method.invoke(Unknown Source)
+21:11:31 [SEVERE] 	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+21:11:31 [SEVERE] 	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+21:11:31 [SEVERE] 	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:377)
+21:11:31 [SEVERE] 	at net.md_5.bungee.connection.InitialHandler$6$1.run(InitialHandler.java:495)
+21:11:31 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358)
+21:11:31 [SEVERE] 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+21:11:31 [SEVERE] 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+21:11:31 [SEVERE] 	at java.lang.Thread.run(Unknown Source)
+21:11:31 [SEVERE] Jun 28, 2016 9:11:31 PM net.md_5.bungee.event.EventBus post
+WARNING: Error dispatching event PostLoginEvent(player=im_not_eric) to listener com.tregmine.bungee.listeners.LoginListener@6025e1b6
+java.lang.NullPointerException
+	at com.tregmine.bungee.api.TregminePlayer.<init>(TregminePlayer.java:36)
+	at com.tregmine.bungee.Tregmine.getPlayer(Tregmine.java:76)
+	at com.tregmine.bungee.listeners.LoginListener.onLogin(LoginListener.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:46)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:377)
+	at net.md_5.bungee.connection.InitialHandler$6$1.run(InitialHandler.java:495)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:358)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:357)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)
+
+
+21:11:31 [WARNING] Event PostLoginEvent(player=im_not_eric) took 380,073,968ns to process!
+21:11:31 [INFO] [im_not_eric] <-> ServerConnector [lobby] has connected
+21:11:31 [INFO] [im_not_eric] disconnected with: §cKicked whilst connecting to lobby: §fOutdated server! I'm still on 1.7.10
+21:11:31 [INFO] [im_not_eric] <-> ServerConnector [lobby] has disconnected
+21:11:32 [INFO] [im_not_eric] -> UpstreamBridge has disconnected
+21:13:38 [INFO] Closing listener [id: 0x46ce1506, /0:0:0:0:0:0:0:0:25577]
+21:13:38 [INFO] Closing pending connections
+21:13:38 [INFO] Disconnecting 0 connections
+21:13:38 [INFO] Closing IO threads
+21:13:40 [INFO] Saving reconnect locations
+21:13:40 [INFO] Disabling plugins
+21:13:45 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+21:13:45 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+21:13:45 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.10-SNAPSHOT:c5ac5a0:1164
+21:13:45 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+21:13:45 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+21:13:45 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+21:13:45 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+21:13:45 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+21:13:45 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+21:13:45 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:13:45 [INFO] Loaded plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:13:45 [INFO] Loaded plugin TregmineBungee version 1.0.0 by Eric Rabil
+21:13:45 [INFO] Loaded plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:13:45 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:13:45 [INFO] Loaded plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:13:45 [INFO] Loaded plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:13:45 [WARNING] Forced host server pvp is not defined
+21:13:45 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:13:45 [INFO] Enabled plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:13:45 [INFO] Called! 1
+21:13:45 [INFO] Enabled plugin TregmineBungee version 1.0.0 by Eric Rabil
+21:13:45 [INFO] Enabled plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:13:45 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:13:45 [INFO] Enabled plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:13:45 [INFO] Enabled plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+21:13:45 [INFO] Listening on /0.0.0.0:25577
+21:13:49 [INFO] Netty is not using direct IO buffers.
+21:13:49 [INFO] [/127.0.0.1:64069] <-> InitialHandler has connected
+21:13:50 [INFO] [TregmineBungee] Player with UUID 8f407eba-4270-4d0e-b7eb-60d0b7aeda57 and rank SENIOR_ADMIN connected.
+21:13:50 [WARNING] Event PostLoginEvent(player=im_not_eric) took 376,744,752ns to process!
+21:13:51 [INFO] [im_not_eric] <-> ServerConnector [lobby] has connected
+21:13:51 [WARNING] [im_not_eric] <-> ServerConnector [lobby] - IOException: An established connection was aborted by the software in your host machine
+21:13:51 [INFO] [im_not_eric] disconnected with: §fException Connecting:IOException : An established connection was aborted by the software in your host machine @ sun.nio.ch.SocketDispatcher:-2
+21:13:51 [INFO] [im_not_eric] <-> ServerConnector [lobby] has disconnected
+21:13:51 [INFO] [im_not_eric] -> UpstreamBridge has disconnected
+21:14:41 [INFO] [/127.0.0.1:64080] <-> InitialHandler has connected
+21:14:41 [INFO] [TregmineBungee] Player with UUID 8f407eba-4270-4d0e-b7eb-60d0b7aeda57 and rank SENIOR_ADMIN connected.
+21:14:41 [INFO] [im_not_eric] <-> ServerConnector [lobby] has connected
+21:14:41 [INFO] [im_not_eric] disconnected with: §cKicked whilst connecting to lobby: §fOutdated server! I'm still on 1.7.10
+21:14:41 [INFO] [im_not_eric] <-> ServerConnector [lobby] has disconnected
+21:14:42 [INFO] [im_not_eric] -> UpstreamBridge has disconnected
+21:23:18 [INFO] [/127.0.0.1:64169] <-> InitialHandler has connected
+21:29:43 [INFO] [/127.0.0.1:64184] <-> InitialHandler has connected
+21:46:12 [INFO] [/127.0.0.1:64333] <-> InitialHandler has connected
