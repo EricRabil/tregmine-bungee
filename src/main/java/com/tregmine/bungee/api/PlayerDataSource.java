@@ -5,40 +5,40 @@ public class PlayerDataSource {
 	private int id;
 	private PlayerBan banData;
 	private boolean isBanned;
-	
-	public PlayerDataSource(){
-		
+
+	public PlayerDataSource() {
+
 	}
-	
-	public void setRank(Rank p0){
+
+	public void setRank(Rank p0) {
 		this.rank = p0;
 	}
-	
-	public void setBanData(PlayerBan ban){
+
+	public void setBanData(PlayerBan ban) {
 		this.banData = ban;
 	}
-	
-	public void setID(Integer p0){
+
+	public void setID(Integer p0) {
 		this.id = p0;
 	}
-	
-	public void setBanned(boolean p0){
+
+	public void setBanned(boolean p0) {
 		this.isBanned = p0;
 	}
-	
-	public Rank getRank(){
+
+	public Rank getRank() {
 		return this.rank;
 	}
-	
-	public Integer getID(){
+
+	public Integer getID() {
 		return this.id;
 	}
-	
-	public boolean isBanned(){
+
+	public boolean isBanned() {
 		return this.isBanned;
 	}
-	
-	public PlayerBan getBanData(){
+
+	public PlayerBan getBanData() {
 		return this.banData;
 	}
 }

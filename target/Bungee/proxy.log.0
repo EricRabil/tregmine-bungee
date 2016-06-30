@@ -1911,3 +1911,188 @@ Message: §6Testing ban
 22:17:57 [INFO] [im_not_eric] -> UpstreamBridge has disconnected
 22:29:32 [INFO] [/127.0.0.1:50552] <-> InitialHandler has connected
 22:29:35 [INFO] [null] <-> InitialHandler has connected
+22:31:18 [INFO] [/127.0.0.1:50610] <-> InitialHandler has connected
+22:31:20 [INFO] [/127.0.0.1:50612] <-> InitialHandler has connected
+22:31:20 [INFO] comment
+22:31:20 [INFO] [TregmineBungee] Player with UUID 8f407eba-4270-4d0e-b7eb-60d0b7aeda57 and rank SENIOR_ADMIN connected. '44662'
+22:31:20 [INFO] [im_not_eric] <-> ServerConnector [lobby] has connected
+22:31:20 [SEVERE] [im_not_eric] <-> ServerConnector [lobby] - encountered exception
+java.lang.RuntimeException: Server is online mode!
+	at net.md_5.bungee.ServerConnector.handle(ServerConnector.java:265)
+	at net.md_5.bungee.protocol.packet.EncryptionRequest.handle(EncryptionRequest.java:42)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:276)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:263)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)
+22:31:20 [INFO] [im_not_eric] disconnected with: §fException Connecting:RuntimeException : Server is online mode! @ net.md_5.bungee.ServerConnector:265
+22:31:20 [INFO] [im_not_eric] <-> ServerConnector [lobby] has disconnected
+22:31:21 [INFO] [im_not_eric] -> UpstreamBridge has disconnected
+22:31:45 [INFO] [/127.0.0.1:50628] <-> InitialHandler has connected
+22:31:48 [INFO] [im_not_eric] <-> InitialHandler has connected
+22:31:49 [INFO] comment
+22:31:49 [INFO] [TregmineBungee] Player with UUID 8f407eba-4270-4d0e-b7eb-60d0b7aeda57 and rank SENIOR_ADMIN connected. '44662'
+22:31:49 [INFO] [im_not_eric] <-> ServerConnector [lobby] has connected
+22:31:53 [WARNING] Error in dispatching command
+java.lang.NullPointerException
+	at com.tregmine.bungee.commands.BroadcastCommand.execute(BroadcastCommand.java:26)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:169)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:116)
+	at net.md_5.bungee.connection.UpstreamBridge.handle(UpstreamBridge.java:113)
+	at net.md_5.bungee.protocol.packet.Chat.handle(Chat.java:50)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:276)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:263)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)
+22:31:56 [WARNING] Error in dispatching command
+java.lang.NullPointerException
+	at com.tregmine.bungee.commands.BroadcastCommand.execute(BroadcastCommand.java:26)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:169)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:116)
+	at net.md_5.bungee.connection.UpstreamBridge.handle(UpstreamBridge.java:113)
+	at net.md_5.bungee.protocol.packet.Chat.handle(Chat.java:50)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:276)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:263)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)
+22:33:45 [INFO] Closing listener [id: 0xf56683d3, /0:0:0:0:0:0:0:0:25577]
+22:33:45 [INFO] Closing pending connections
+22:33:45 [INFO] Disconnecting 1 connections
+22:33:45 [INFO] [im_not_eric] disconnected with: §f[Proxy] Proxy restarting.
+22:33:45 [INFO] Closing IO threads
+22:33:45 [INFO] [im_not_eric] -> UpstreamBridge has disconnected
+22:33:45 [INFO] [im_not_eric] disconnected with: §f[Proxy] Lost connection to server.
+22:33:45 [INFO] [im_not_eric] <-> DownstreamBridge <-> [lobby] has disconnected
+22:33:47 [INFO] Saving reconnect locations
+22:33:47 [INFO] Disabling plugins
+22:34:04 [INFO] Using standard Java JCE cipher. To enable the OpenSSL based native cipher, please make sure you are using 64 bit Ubuntu or Debian with libssl installed.
+22:34:04 [INFO] Using standard Java compressor. To enable zero copy compression, run on 64 bit Linux
+22:34:04 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.10-SNAPSHOT:c5ac5a0:1164
+22:34:04 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules\cmd_alert.jar, provider=JenkinsModuleSource())
+22:34:04 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules\cmd_find.jar, provider=JenkinsModuleSource())
+22:34:04 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules\cmd_list.jar, provider=JenkinsModuleSource())
+22:34:04 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules\cmd_send.jar, provider=JenkinsModuleSource())
+22:34:04 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules\cmd_server.jar, provider=JenkinsModuleSource())
+22:34:04 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules\reconnect_yaml.jar, provider=JenkinsModuleSource())
+22:34:04 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+22:34:04 [INFO] Loaded plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+22:34:04 [INFO] Loaded plugin TregmineBungee version 1.0.0 by Eric Rabil
+22:34:04 [INFO] Loaded plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+22:34:04 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+22:34:04 [INFO] Loaded plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+22:34:04 [INFO] Loaded plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+22:34:04 [WARNING] Forced host server pvp is not defined
+22:34:04 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+22:34:04 [INFO] Enabled plugin cmd_find version git:cmd_find:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+22:34:04 [INFO] Called! 1
+22:34:04 [INFO] Enabled plugin TregmineBungee version 1.0.0 by Eric Rabil
+22:34:04 [INFO] Enabled plugin cmd_server version git:cmd_server:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+22:34:04 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+22:34:04 [INFO] Enabled plugin cmd_send version git:cmd_send:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+22:34:04 [INFO] Enabled plugin cmd_list version git:cmd_list:1.10-SNAPSHOT:c5ac5a0:1164 by SpigotMC
+22:34:04 [INFO] Listening on /0.0.0.0:25577
+22:34:06 [INFO] Netty is not using direct IO buffers.
+22:34:06 [INFO] [/127.0.0.1:50674] <-> InitialHandler has connected
+22:34:08 [INFO] [TregmineBungee] Player with UUID 8f407eba-4270-4d0e-b7eb-60d0b7aeda57 and rank SENIOR_ADMIN connected. '44662'
+22:34:08 [INFO] comment
+22:34:08 [WARNING] Event PostLoginEvent(player=im_not_eric) took 405,078,946ns to process!
+22:34:08 [INFO] [im_not_eric] <-> ServerConnector [lobby] has connected
+22:34:11 [INFO] comment
+22:34:11 [INFO] §f[im_not_eric§r] §ftest
+22:35:23 [INFO] comment
+22:35:23 [WARNING] Error in dispatching command
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.tregmine.bungee.commands.BroadcastCommand.execute(BroadcastCommand.java:34)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:169)
+	at net.md_5.bungee.api.plugin.PluginManager.dispatchCommand(PluginManager.java:116)
+	at net.md_5.bungee.connection.UpstreamBridge.handle(UpstreamBridge.java:113)
+	at net.md_5.bungee.protocol.packet.Chat.handle(Chat.java:50)
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:77)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:276)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:263)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.handler.timeout.ReadTimeoutHandler.channelRead(ReadTimeoutHandler.java:152)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:304)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:846)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:131)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
+	at java.lang.Thread.run(Unknown Source)

@@ -26,37 +26,37 @@ import net.md_5.bungee.config.Configuration;
 import net.md_5.bungee.config.ConfigurationProvider;
 import net.md_5.bungee.config.YamlConfiguration;
 
-public class Tregmine extends Plugin{
-	
+public class Tregmine extends Plugin {
+
 	private HashMap<UUID, TregminePlayer> players = new HashMap<UUID, TregminePlayer>();
-	
+
 	private ArrayList<TregminePlayer> onlinePlayers = new ArrayList<TregminePlayer>();
-	
+
 	private Configuration config;
-	
+
 	private IContextFactory contextFactory;
-	
+
 	public final String disconnectTL = ChatColor.RED + "You have been disconnected from the Tregmine Network.\n";
-	
+
 	@Override
-	public void onEnable(){
-		if(!getDataFolder().exists()){
+	public void onEnable() {
+		if (!getDataFolder().exists()) {
 			getLogger().info("Data folder was missing, generating.");
 			getDataFolder().mkdir();
 		}
 		File configFile = new File(getDataFolder(), "config.yml");
-		if(!configFile.exists()){
+		if (!configFile.exists()) {
 			try {
-                configFile.createNewFile();
-                try (InputStream is = getResourceAsStream("example_config.yml");
-                     OutputStream os = new FileOutputStream(configFile)) {
-                    ByteStreams.copy(is, os);
-                }
-            } catch (IOException e) {
-                throw new RuntimeException("Unable to create configuration file", e);
-            }
+				configFile.createNewFile();
+				try (InputStream is = getResourceAsStream("example_config.yml");
+						OutputStream os = new FileOutputStream(configFile)) {
+					ByteStreams.copy(is, os);
+				}
+			} catch (IOException e) {
+				throw new RuntimeException("Unable to create configuration file", e);
+			}
 		}
-		
+
 		try {
 			this.config = ConfigurationProvider.getProvider(YamlConfiguration.class).load(configFile);
 		} catch (IOException e) {
@@ -64,38 +64,38 @@ public class Tregmine extends Plugin{
 			getLogger().severe("Couldn't load configuration file, disabling.");
 			this.onDisable();
 		}
-		
+
 		getProxy().getPluginManager().registerListener(this, new LoginListener(this));
-		
+
 		getProxy().getPluginManager().registerCommand(this, new BroadcastCommand(this));
-		
+
 		contextFactory = new com.tregmine.bungee.database.db.DBContextFactory(config, this);
 	}
-	
-	public TregminePlayer getPlayer(ProxiedPlayer player){
+
+	public TregminePlayer getPlayer(ProxiedPlayer player) {
 		TregminePlayer cached = players.get(player.getUniqueId().toString());
-		if(cached != null){
+		if (cached != null) {
 			return cached;
 		}
-		try(IContext ctx = contextFactory.createContext()){
+		try (IContext ctx = contextFactory.createContext()) {
 			IPlayerDAO playerdao = ctx.getPlayerDAO();
 			PlayerDataSource source = playerdao.buildPlayer(player.getUniqueId());
 			return new TregminePlayer(this, player, source);
-		}catch(DAOException e){
+		} catch (DAOException e) {
 			e.printStackTrace();
 		}
 		return null;
 	}
-	
+
 	public IContext createContext() throws DAOException {
 		return contextFactory.createContext();
 	}
-	
+
 	public IContextFactory getContextFactory() {
 		return contextFactory;
 	}
-	
-	public ArrayList<TregminePlayer> getOnlinePlayers(){
+
+	public ArrayList<TregminePlayer> getOnlinePlayers() {
 		return this.onlinePlayers;
 	}
 }

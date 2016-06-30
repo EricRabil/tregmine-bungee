@@ -8,8 +8,6 @@ import java.util.Map;
 
 import org.apache.commons.dbcp.BasicDataSource;
 
-import com.mysql.jdbc.Driver;
-
 import com.tregmine.bungee.Tregmine;
 import com.tregmine.bungee.database.DAOException;
 import com.tregmine.bungee.database.IContext;
@@ -25,20 +23,20 @@ public class DBContextFactory implements IContextFactory {
 	public DBContextFactory(Configuration config, Tregmine instance) {
 		queryLog = new HashMap<>();
 
-//		String driver = config.getString("db.driver");
-//		if (driver == null) {
-//			driver = "com.mysql.jdbc.Driver";
-//		}
+		// String driver = config.getString("db.driver");
+		// if (driver == null) {
+		// driver = "com.mysql.jdbc.Driver";
+		// }
 
-//		try {
-//			Class.forName(com.mysql.jdbc.Driver.class.to).newInstance();
-//		} catch (ClassNotFoundException ex) {
-//			throw new RuntimeException(ex);
-//		} catch (IllegalAccessException ex) {
-//			throw new RuntimeException(ex);
-//		} catch (InstantiationException ex) {
-//			throw new RuntimeException(ex);
-//		}
+		// try {
+		// Class.forName(com.mysql.jdbc.Driver.class.to).newInstance();
+		// } catch (ClassNotFoundException ex) {
+		// throw new RuntimeException(ex);
+		// } catch (IllegalAccessException ex) {
+		// throw new RuntimeException(ex);
+		// } catch (InstantiationException ex) {
+		// throw new RuntimeException(ex);
+		// }
 
 		String user = config.getString("db.user");
 		String password = config.getString("db.password");

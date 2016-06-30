@@ -1,0 +1,7 @@
+com.tregmine.bungee
+com.tregmine.bungee.api
+com.tregmine.bungee.api.exception
+com.tregmine.bungee.commands
+com.tregmine.bungee.database
+com.tregmine.bungee.database.db
+com.tregmine.bungee.listeners

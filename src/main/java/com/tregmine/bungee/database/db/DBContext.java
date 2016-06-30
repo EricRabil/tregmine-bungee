@@ -24,9 +24,9 @@ public class DBContext implements IContext {
 			}
 		}
 	}
-	
+
 	@Override
-	public DBPlayerDAO getPlayerDAO(){
+	public DBPlayerDAO getPlayerDAO() {
 		return new DBPlayerDAO(this.plugin, this.conn);
 	}
 
