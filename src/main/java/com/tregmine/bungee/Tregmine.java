@@ -28,9 +28,6 @@ import net.md_5.bungee.config.YamlConfiguration;
 
 public class Tregmine extends Plugin{
 	
-	private String version = "1.0.0";
-	private String name = "Tregmine Bungee";
-	
 	private HashMap<UUID, TregminePlayer> players = new HashMap<UUID, TregminePlayer>();
 	
 	private ArrayList<TregminePlayer> onlinePlayers = new ArrayList<TregminePlayer>();

@@ -80,30 +80,35 @@ public class DBPlayerDAO implements IPlayerDAO{
 		PlayerDataSource source = new PlayerDataSource();
 		String sql = "SELECT * FROM player WHERE player_uuid = ?";
 		String sqlx = "SELECT * FROM player_report WHERE subject_id = ?";
-		try(PreparedStatement stmt = conn.prepareStatement(sql); PreparedStatement stmtx = conn.prepareStatement(sqlx)){
+		try(PreparedStatement stmt = conn.prepareStatement(sql)){
 			stmt.setString(1, uuid.toString());
 			stmt.execute();
 			try(ResultSet rs = stmt.getResultSet()){
 				while(rs.next()){
-			source.setID(rs.getInt("player_id"));
-			source.setRank(Rank.fromString(rs.getString("player_rank")));
-			source.setBanned(false);
+					source.setID(rs.getInt("player_id"));
+					source.setRank(Rank.fromString(rs.getString("player_rank")));
+					source.setBanned(false);
 				}
 			}
-			stmtx.setInt(1, source.getID());
-			stmtx.execute();
-			try(ResultSet rs = stmtx.getResultSet()){
-				while(rs.next()){
-					if ("ban".equals(rs.getString("report_action"))) {
-						if(rs.getObject("report_validuntil") != null){
-							if(rs.getInt("report_validuntil") < System.currentTimeMillis()) continue;
+			try(PreparedStatement stmtx = conn.prepareStatement(sqlx)){
+				stmtx.setInt(1, source.getID());
+				stmtx.execute();
+				try(ResultSet rs = stmtx.getResultSet()){
+					
+					while(rs.next()){
+						System.out.print(rs.getString("report_action"));
+						if (rs.getString("report_action").trim().toLowerCase().contains("ban")) {
+							if(rs.getObject("report_validuntil") == null) continue;
+							if((rs.getInt("report_validuntil") * 1000l) < System.currentTimeMillis()) continue;
+							System.out.print("bitch");
+							PlayerBan ban = new PlayerBan();
+							ban.setIssuerID(rs.getInt("issuer_id"));
+							ban.setReportID(rs.getInt("report_id"));
+							ban.setVictimID(rs.getInt("subject_id"));
+							ban.setReportMessage(rs.getString("report_message"));
+							source.setBanData(ban);
+							source.setBanned(true);
 						}
-						PlayerBan ban = new PlayerBan();
-						ban.setIssuerID(rs.getInt("issuer_id"));
-						ban.setReportID(rs.getInt("report_id"));
-						ban.setVictimID(rs.getInt("subject_id"));
-						ban.setReportMessage(rs.getString("report_message"));
-						source.setBanned(true);
 					}
 				}
 			}
@@ -114,16 +119,11 @@ public class DBPlayerDAO implements IPlayerDAO{
 				pds.setRank(Rank.UNVERIFIED);
 				return pds;
 			}else{
-			return source;
+				return source;
 			}
 		}catch(SQLException e){
 			e.printStackTrace();
 		}catch(NullPointerException e){
-//			PlayerDataSource pds = new PlayerDataSource();
-//			pds.setBanned(false);
-//			pds.setID(null);
-//			pds.setRank(Rank.UNVERIFIED);
-//			return pds;
 			e.printStackTrace();
 		}
 		return null;

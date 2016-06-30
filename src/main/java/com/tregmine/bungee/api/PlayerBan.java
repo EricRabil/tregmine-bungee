@@ -6,7 +6,7 @@ public class PlayerBan {
 	private int issuer_id;
 	private String report_message;
 	private int timestamp;
-	private int expiration;
+	private Integer expiration;
 	
 	public PlayerBan(){
 		
@@ -28,6 +28,14 @@ public class PlayerBan {
 		this.report_message = message;
 	}
 	
+	public void setTimestamp(int i){
+		this.timestamp = i;
+	}
+	
+	public void setValidUntil(Integer i){
+		this.expiration = i;
+	}
+	
 	public int getReportID(){
 		return this.report_id;
 	}
@@ -42,5 +50,17 @@ public class PlayerBan {
 	
 	public String getReportMessage(){
 		return this.report_message;
+	}
+	
+	public boolean neverExpires(){
+		return this.expiration == null;
+	}
+	
+	public int getTimestamp(){
+		return this.timestamp;
+	}
+	
+	public Integer getValidUntil(){
+		return this.expiration;
 	}
 }

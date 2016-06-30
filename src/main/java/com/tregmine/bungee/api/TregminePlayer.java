@@ -36,6 +36,7 @@ public class TregminePlayer implements ProxiedPlayer{
 	
 	public TregminePlayer(Tregmine t, ProxiedPlayer f, PlayerDataSource source){
 		this.banned = source.isBanned();
+		this.banData = source.getBanData();
 		this.rank = source.getRank();
 		this.id = source.getID();
 		this.delegate = f;

@@ -1,6 +1,9 @@
 package com.tregmine.bungee.listeners;
 
+import java.util.Date;
+
 import com.tregmine.bungee.Tregmine;
+import com.tregmine.bungee.api.PlayerBan;
 import com.tregmine.bungee.api.TregminePlayer;
 
 import net.md_5.bungee.api.ChatColor;
@@ -20,10 +23,21 @@ public class LoginListener implements Listener{
 	@EventHandler
 	public void onLogin(PostLoginEvent e){
 		TregminePlayer player = x.getPlayer(e.getPlayer());
-		x.getLogger().info("Player with UUID " + player.getUniqueId().toString() + " and rank " + player.getRank().toString() + " connected.");
+		x.getLogger().info("Player with UUID " + player.getUniqueId().toString() + " and rank " + player.getRank().toString() + " connected. '" + player.getID() + "'");
 		if(player.isBanned()){
-			x.getLogger().info(e.getPlayer().getUniqueId().toString() + " is banned and won't be allowed to connect.");
-			TextComponent component = new TextComponent(this.x.disconnectTL + ChatColor.GOLD + "Your ");
+			x.getLogger().info(e.getPlayer().getUniqueId().toString() + " was disconnected because they are banned.");
+			PlayerBan ban = player.getBanData();
+			String expiration;
+			if(ban.neverExpires()){
+			Date validuntil = null;
+			expiration = "The End of Time";
+			}else{
+			Date validuntil = new Date(player.getBanData().getValidUntil() * 1000l);
+			expiration = validuntil.getMonth() + "/" + validuntil.getDay() + "/" + validuntil.getYear();
+			}
+			Date issued = new Date(player.getBanData().getTimestamp() * 1000l);
+			String length = issued.getMonth() + "/" + issued.getDay() + "/" + issued.getYear() + " - "  + expiration;
+			TextComponent component = new TextComponent(ChatColor.RED + "You are banned from the Tregmine Network.\n" + "Message: " + ChatColor.GOLD + player.getBanData().getReportMessage() + "\n" + ChatColor.RED + "Your case ID is " + player.getBanData().getReportID());
 			e.getPlayer().disconnect(component);
 		}
 		this.x.getOnlinePlayers().add(player);

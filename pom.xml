@@ -34,6 +34,7 @@
 					</execution>
 				</executions>
 				<configuration>
+					<outputDirectory>./target/Bungee/plugins</outputDirectory>
 					<finalName>complete-${artifactId}-${version}</finalName>
 				</configuration>
 			</plugin>
