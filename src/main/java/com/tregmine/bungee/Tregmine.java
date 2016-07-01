@@ -17,11 +17,14 @@ import com.tregmine.bungee.database.DAOException;
 import com.tregmine.bungee.database.IContext;
 import com.tregmine.bungee.database.IContextFactory;
 import com.tregmine.bungee.database.IPlayerDAO;
+import com.tregmine.bungee.listeners.ChatListener;
+import com.tregmine.bungee.listeners.DisconnectListener;
 import com.tregmine.bungee.listeners.LoginListener;
 
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import net.md_5.bungee.api.plugin.Plugin;
+import net.md_5.bungee.api.plugin.PluginManager;
 import net.md_5.bungee.config.Configuration;
 import net.md_5.bungee.config.ConfigurationProvider;
 import net.md_5.bungee.config.YamlConfiguration;
@@ -37,7 +40,7 @@ public class Tregmine extends Plugin {
 	private IContextFactory contextFactory;
 
 	public final String disconnectTL = ChatColor.RED + "You have been disconnected from the Tregmine Network.\n";
-
+	
 	@Override
 	public void onEnable() {
 		if (!getDataFolder().exists()) {
@@ -64,8 +67,12 @@ public class Tregmine extends Plugin {
 			getLogger().severe("Couldn't load configuration file, disabling.");
 			this.onDisable();
 		}
+		
+		PluginManager plmgm = getProxy().getPluginManager();
 
 		getProxy().getPluginManager().registerListener(this, new LoginListener(this));
+		plmgm.registerListener(this, new ChatListener(this));
+		plmgm.registerListener(this, new DisconnectListener(this));
 
 		getProxy().getPluginManager().registerCommand(this, new BroadcastCommand(this));
 
@@ -85,6 +92,17 @@ public class Tregmine extends Plugin {
 			e.printStackTrace();
 		}
 		return null;
+	}
+	
+	public void addPlayer(TregminePlayer player){
+		if(!this.players.containsKey(player.getUniqueId())){
+			this.players.put(player.getUniqueId(), player);
+		}
+		this.onlinePlayers.add(player);
+	}
+	
+	public void removePlayer(TregminePlayer player){
+		this.onlinePlayers.remove(player);
 	}
 
 	public IContext createContext() throws DAOException {

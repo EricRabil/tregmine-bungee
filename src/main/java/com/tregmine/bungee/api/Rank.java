@@ -35,6 +35,14 @@ public enum Rank {
 	public ChatColor getRankColor() {
 		return this.rankcolor;
 	}
+	
+	public boolean canSeePlayerStats(){
+		return this == GUARDIAN || this == JUNIOR_ADMIN || this == SENIOR_ADMIN;
+	}
+	
+	public boolean canUseChatColors() {
+		return this == GUARDIAN || this == CODER || this == DONATOR || this == JUNIOR_ADMIN || this == SENIOR_ADMIN;
+	}
 
 	public String getName() {
 		if (this == UNVERIFIED) {

@@ -2096,3 +2096,7 @@ java.lang.ArrayIndexOutOfBoundsException: 0
 	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354)
 	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:112)
 	at java.lang.Thread.run(Unknown Source)
+22:41:50 [INFO] [im_not_eric] -> UpstreamBridge has disconnected
+22:41:50 [INFO] [im_not_eric] disconnected with: §f[Proxy] Lost connection to server.
+22:41:50 [INFO] [im_not_eric] <-> DownstreamBridge <-> [lobby] has disconnected
+22:41:51 [INFO] [/127.0.0.1:50827] <-> InitialHandler has connected
